@@ -1,0 +1,7 @@
+actor: ApiTester
+modules:
+    enabled:
+        - \Codeception\Module\Asserts
+        - REST:
+              url: https://possible-triangle.herokuapp.com/triangle/possible?a=2&b=3&c=5
+              depends: PhpBrowser
