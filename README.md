@@ -19,4 +19,3 @@ or download it
 ## How to run test:
 
 ```vendor/bin/codecept run api TestsTriangleCest``` - make run
-
